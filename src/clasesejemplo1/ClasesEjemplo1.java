@@ -1,16 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package clasesejemplo1;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author yojar
- */
+
 import java.util.ArrayList;
 import java.util.Collection;
 public class ClasesEjemplo1 {
@@ -28,7 +21,7 @@ public class ClasesEjemplo1 {
         listaMarcasCoches.add("Ferrari");
         listaMarcasCoches.add("Mercedes");
         listaMarcasCoches.add("Seat");
-        System.out.println("Número elementos antes de eliminar: " + listaMarcasCoches.size() ) ;
+        System.out.println("Número de los elementos antes de eliminar: " + listaMarcasCoches.size() ) ;
         System.out.println (listaMarcasCoches.toString() ) ;
         listaMarcasCoches.remove ("Seat");
         listaMarcasCoches.remove ("Mercedes");
